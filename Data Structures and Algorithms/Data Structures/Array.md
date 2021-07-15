@@ -6,18 +6,18 @@ Each position in an array is identified by an index, most language use zero-base
 ### One Dimensional Arrays
 You can think of a one-dimesional array as a single row of values. here is an example storing 5 values in an array.
 
-| Indexs | 0 | 1 | 2 | 3 | 4 |
-| --- | --- | --- | --- | --- | --- | 
-| values | Orange | Apple | Avocado | Rambutan | Banana | 
+| Index | 0 | 1 | 2 | 3 | 4 | 5 |
+| --- | --- | --- | --- | --- | --- | --- | 
+| values | Orange | Apple | Avocado | Rambutan | Banana | Durian | 
 
 ### Two Demensional Arrays
 Array can have more than one dimension. you could envisage a two-dimensional array as a table with rows and columns.
 
-| Indexs | 0 | 1 | 2 | 3 | 4 |
-| --- | --- | --- | --- | --- | --- |
-| 0 | Shcool | Pull | Where | Said | Today |
-| 1 | Path | Floor | Sugar | Because | Beautiful |
-| 2 | Question | Answer | Group | Minute | Populer |
+| Index | 0 | 1 | 2 | 3 | 4 | 5 |
+| --- | --- | --- | --- | --- | --- | --- |
+| 0 | Shcool | Pull | Where | Said | Today | Tomorrow |
+| 1 | Path | Floor | Sugar | Because | Beautiful | Book |
+| 2 | Question | Answer | Group | Minute | Populer | Pen | 
 
 ### Three Demensional Arrays
 When you work with three or more dimensions, it is hard to visualise the data. Fortunately, in the programming you do not need to do this, you just decide the dimensions and the order in which you will index the data. Then be consistent throughout.
