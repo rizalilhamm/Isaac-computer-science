@@ -22,3 +22,6 @@ with built-in data structures the implementation is abstracted, you will not kno
 
 ### Memory Management
 Memory for dynamic data structures such as [Linked-list](https://en.wikipedia.org/wiki/Linked_list) is taken from memory heap in the most high-level programming languages, we do not have to worry about managing the heap.
+
+
+Read more here [Data type and Data Structures](https://isaaccomputerscience.org/concepts/dsa_datastruct_definitions?topic=data_structures)
