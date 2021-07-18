@@ -5,4 +5,4 @@ each element in linked list called **Node** that contain:
 1. The data relating to the element
 2. A pointer to the next node
 
-For more implementation [click here](https://github.com/rizalilhamm/Isaac-computer-science/blob/main/Data%20Structures%20and%20Algorithms/Data%20Structures/linked_list.py)
+Here is implementation [click here](https://github.com/rizalilhamm/Isaac-computer-science/blob/main/Data%20Structures%20and%20Algorithms/Data%20Structures/linked_list.py)
