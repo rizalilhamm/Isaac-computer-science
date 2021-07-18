@@ -1,6 +1,5 @@
 from types import prepare_class
 
-
 class Node:
     # Create Node to store data in linked list
     def __init__(self, data):
