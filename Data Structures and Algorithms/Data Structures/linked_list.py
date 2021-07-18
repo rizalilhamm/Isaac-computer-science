@@ -9,6 +9,7 @@ class Node:
     def __repr__(self):
         return self.data
 
+
 class LinkedList:
     # Create our own Linked List
     def __init__(self, nodes=None):
@@ -22,7 +23,6 @@ class LinkedList:
                 node.next = Node(data=elem)
                 node = node.next
 
-
     def __repr__(self):
         node = self.head
         nodes = []
@@ -32,7 +32,6 @@ class LinkedList:
         nodes.append('None')
         return " -> ".join(nodes)
 
-
     def __iter__(self):
         # This function used to show all data in linkedlist
         node = self.head
@@ -40,12 +39,10 @@ class LinkedList:
             yield node
             node = node.next
 
-
     def add_first(self, new_node):
         # add Node at the first of linked list
         new_node.next = self.head
         self.head = new_node
-
 
     def add_last(self, new_node):
         # Add new node add the last of linked list
@@ -59,7 +56,6 @@ class LinkedList:
         # set new_node as next of current_node 
         current_node.next = new_node
 
-
     def add_after(self, target_node_data, new_node):
         if self.head is None:
             raise Exception("List is Empty")
@@ -70,7 +66,6 @@ class LinkedList:
                 node.next = new_node
                 return
         raise Exception("Targe with %s not found." % target_node_data)
-
 
     def add_before(self, target_node_data, new_node):
         if self.head is None:
@@ -88,7 +83,6 @@ class LinkedList:
             prev_node = node
         raise Exception("Targe with %s not found." % target_node_data)
                 
-
     def remove_node(self, target_node_data):
         # Remove a Node from a linked list
         if self.head.data == None:
